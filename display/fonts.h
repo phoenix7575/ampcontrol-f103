@@ -25,8 +25,8 @@ typedef struct {
     uint8_t direction;
 } Font;
 
-extern const uint8_t font_ks0066_ru_08[];
-extern const uint8_t font_ks0066_ru_24[];
-extern const uint8_t font_digits_32[];
+extern const uint8_t font_ks0066_ru_08[] __attribute__((section (".bonus")));
+extern const uint8_t font_ks0066_ru_24[] __attribute__((section (".bonus")));
+extern const uint8_t font_digits_32[] __attribute__((section (".bonus")));
 
 #endif // FONTS_H
