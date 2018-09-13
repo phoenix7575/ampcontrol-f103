@@ -17,6 +17,7 @@ static void displayTm(RTC_type *rtc, uint8_t tm)
     glcdWriteNum(time, 2, '0', 10);
     glcdSetFontColor(LCD_COLOR_WHITE);
     glcdWriteChar(LETTER_SPACE_CHAR);
+    glcdWriteChar(LETTER_SPACE_CHAR);
 }
 
 static void drawSpCol(uint16_t xbase, uint16_t ybase, uint8_t width, uint16_t value, uint16_t max)
